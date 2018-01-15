@@ -1,13 +1,10 @@
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.maps.DirectionsApi;
-import com.google.maps.DirectionsApiRequest;
 import com.google.maps.GeoApiContext;
-import com.google.maps.PlaceDetailsRequest;
 import com.google.maps.errors.ApiException;
+import com.google.maps.model.DirectionsLeg;
 import com.google.maps.model.DirectionsResult;
-import com.google.maps.model.GeocodedWaypoint;
-import com.google.maps.model.PlaceDetails;
+import com.google.maps.model.DirectionsRoute;
+import com.google.maps.model.DirectionsStep;
 
 import java.io.IOException;
 
